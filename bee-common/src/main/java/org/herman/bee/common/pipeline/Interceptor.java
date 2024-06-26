@@ -1,6 +1,6 @@
 package org.herman.bee.common.pipeline;
 
-public interface Filter {
+public interface Interceptor {
 
 
 

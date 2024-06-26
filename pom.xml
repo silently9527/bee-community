@@ -20,11 +20,17 @@
         <lombok.version>1.18.26</lombok.version>
         <slf4j-api.version>2.0.6</slf4j-api.version>
         <hutool.version>5.8.21</hutool.version>
+        <netty4.version>4.1.104.Final</netty4.version>
     </properties>
 
 
     <dependencyManagement>
         <dependencies>
+            <dependency>
+                <groupId>io.netty</groupId>
+                <artifactId>netty-all</artifactId>
+                <version>${netty4.version}</version>
+            </dependency>
             <dependency>
                 <groupId>cn.hutool</groupId>
                 <artifactId>hutool-all</artifactId>

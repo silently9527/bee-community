@@ -18,6 +18,10 @@
 
     <dependencies>
         <dependency>
+            <groupId>io.netty</groupId>
+            <artifactId>netty-all</artifactId>
+        </dependency>
+        <dependency>
             <groupId>org.herman.bee</groupId>
             <artifactId>bee-common</artifactId>
             <version>${project.version}</version>
